@@ -25,10 +25,10 @@ const AboutUs = () => {
         </div>
         <div className="w-[80%] lg:w-auto flex flex-col items-center  lg:items-start lg:justify-start justify-center text-center py-5 mb-3 space-y-5">
           <p className="text-lg font-bold text-[#6C6C6C]">ABOUT OUR VENUE</p>
-          <p className="text-5xl font-bold md:max-w-[700px] text-[#FF1E00] lg:text-start text-center">
+          <p className="text-5xl font-bold md:max-w-[700px] text-[#FF6767] lg:text-start text-center">
             About Us
           </p>
-          <p className="max-w-[600px] font-semibold lg:text-start text-center">
+          <p className="max-w-[600px] font-bold lg:text-start text-center">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Consequuntur, consequatur vero, tenetur corrupti libero
             necessitatibus sequi magni mollitia iure minima nulla, fuga numquam
@@ -49,8 +49,8 @@ const AboutUs = () => {
               marginwidth="0"
             ></iframe>
           </div>
-          <button className="text-md px-10 py-2 rounded-xl drop-shadow-[8px_8px_15px_rgba(0,0,0,0.45)] text-white bg-gradient-to-br from-[#FF1E00] to-[#C2000A]  font-semibold">
-            learn More
+          <button className="text-md px-10 py-2 rounded-xl drop-shadow-[8px_8px_15px_rgba(0,0,0,0.45)] text-white bg-gradient-to-r from-[#AC1400] to-[#FF1E00]  font-semibold">
+            Learn More
           </button>
         </div>
       </div>

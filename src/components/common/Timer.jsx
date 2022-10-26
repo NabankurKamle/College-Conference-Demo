@@ -38,20 +38,20 @@ const Timer = () => {
     startTimer();
   });
   return (
-    <div className="w-[100%] md:px-24 py-28 flex flex-col md:flex-row items-center justify-center space-y-5 md:space-y-0 md:space-x-16 lg:space-x-32">
-      <div className="flex flex-col items-center justify-center px-10 py-6 shadow-xl h-[100px] w-[100px]">
+    <div className="w-[100%]  md:px-24 py-28 flex flex-col md:flex-row items-center justify-center space-y-5 md:space-y-0 md:space-x-16 lg:space-x-32">
+      <div className="flex flex-col items-center justify-center px-10 py-6  h-[100px] w-[100px] rounded-xl border-2 border-[#FF1E00] shadow-[0px_10px_15px_rgba(0,0,0,0.25)]">
         <span className="text-3xl font-bold mb-2">{timerDays}</span>
         <span className="text-lg">Days</span>
       </div>
-      <div className="flex flex-col items-center justify-center px-10 py-6 shadow-xl h-[100px] w-[100px] ">
+      <div className="flex flex-col items-center justify-center px-10 py-6 h-[100px] w-[100px] rounded-xl border-2 border-[#FF1E00] shadow-[0px_10px_15px_rgba(0,0,0,0.25)]">
         <span className="text-3xl font-bold mb-2">{timerHours}</span>
         <span className="text-lg">Hours</span>
       </div>
-      <div className="flex flex-col items-center justify-center px-10 py-6 shadow-xl h-[100px] w-[100px] ">
+      <div className="flex flex-col items-center justify-center px-10 py-6 h-[100px] w-[100px] rounded-xl border-2 border-[#FF1E00] shadow-[0px_10px_15px_rgba(0,0,0,0.25)]">
         <span className="text-3xl font-bold mb-2">{timerMinutes}</span>
         <span className="text-lg">Minutes</span>
       </div>
-      <div className="flex flex-col items-center justify-center px-10 py-6 shadow-xl h-[100px] w-[100px]">
+      <div className="flex flex-col items-center justify-center px-10 py-6 h-[100px] w-[100px] rounded-xl border-2 border-[#FF1E00] shadow-[0px_10px_15px_rgba(0,0,0,0.25)]">
         <span className="text-3xl font-bold mb-2">{timerSeconds}</span>
         <span className="text-lg">Seconds</span>
       </div>

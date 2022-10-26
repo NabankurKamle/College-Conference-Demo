@@ -9,8 +9,8 @@ const Sponsers = () => {
         <p className="text-md font-bold text-[#6C6C6C]">
           EVENT PARTNERS & SPONSERS
         </p>
-        <p className="text-5xl font-bold text-[#FF1E00]">PARTNERS & SPONSERS</p>
-        <p className="max-w-[600px] font-semibold">
+        <p className="text-5xl font-bold text-[#FF6767]">PARTNERS & SPONSERS</p>
+        <p className="max-w-[600px] font-bold">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           Consequuntur, consequatur vero, tenetur corrupti libero necessitatibus
           sequi magni mollitia iure minima nulla, fuga numquam illo eveniet?.

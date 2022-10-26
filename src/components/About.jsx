@@ -25,8 +25,8 @@ const About = () => {
         </div>
         <div className="flex flex-col items-center lg:items-start lg:justify-start justify-center text-center py-5 mb-3 space-y-10">
           <p className="text-lg font-bold text-[#6C6C6C]">ABOUT CONFERENCE</p>
-          <p className="text-5xl font-bold md:max-w-[700px] text-[#FF1E00] lg:text-start text-center">
-            WELCOME TO THE GREATEST DIGITAL INDIA CONFERENCE{" "}
+          <p className="text-5xl font-bold md:max-w-[700px] text-[#FF6767] lg:text-start text-center">
+            WELCOME TO THE GREATEST DIGITAL INDIA CONFERENCE
             <span
               style={{
                 webkitTextFillColor: "transparent",
@@ -43,8 +43,8 @@ const About = () => {
             necessitatibus sequi magni mollitia iure minima nulla, fuga numquam
             illo eveniet?.
           </p>
-          <button className="text-md px-10 py-2 rounded-xl drop-shadow-[8px_8px_15px_rgba(0,0,0,0.45)] text-white bg-gradient-to-br from-[#FF1E00] to-[#C2000A] mb-10 font-semibold">
-            learn More
+          <button className="text-md px-10 py-2 rounded-xl drop-shadow-[8px_8px_15px_rgba(0,0,0,0.45)] text-white bg-gradient-to-r from-[#AC1400] to-[#FF1E00] mb-10 font-semibold">
+            Learn More
           </button>
         </div>
       </div>

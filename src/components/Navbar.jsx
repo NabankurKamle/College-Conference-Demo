@@ -14,7 +14,7 @@ const Navbar = () => {
       style={!displayList ? { overflow: "hidden" } : { overflow: "visible" }}
       className="w-[100vw] space-x-3 flex items-center justify-between bg-transparent fixed top-0 py-6 px-12 sm:overflow-visible backdrop-blur-md shadow-md z-50"
     >
-      <div className="px-2 py-1 text-white bg-gradient-to-r  from-[#232B69] to-[#66328F] rounded-md">
+      <div className="px-4 py-2 text-white bg-gradient-to-r from-[#AC1400] to-[#FF1E00] rounded-md">
         <Link className="text-xl font-bold" to="/">
           Logo
         </Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
       </div>
 
       <div className=" lg:block hidden">
-        <button className="px-5 py-2 text-white bg-gradient-to-r  from-[#232B69] to-[#66328F] rounded-lg ">
+        <button className="px-5 py-2 text-white bg-gradient-to-r from-[#AC1400] to-[#FF1E00] font-semibold rounded-lg ">
           <Link to="/register">Register Now</Link>
         </button>
       </div>
