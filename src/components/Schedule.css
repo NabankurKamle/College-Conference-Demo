@@ -1,6 +1,6 @@
 .scheduleContainer::before {
   content: "";
-  background: url("/public/img/bg/bgSchedule.jpg") center center/cover no-repeat;
+  background: url("/public/img/bg/bgSchedule.svg") center center/cover no-repeat;
   position: absolute;
   width: 100%;
   height: 100%;
