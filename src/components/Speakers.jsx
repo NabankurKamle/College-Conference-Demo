@@ -19,7 +19,7 @@ const Speakers = () => {
           Learn More
         </button>
       </div>
-      <div className=" flex md:flex-row flex-col md:space-y-0 space-y-5 md:space-x-10 items-center justify-center mb-10">
+      <div className=" flex flex-wrap md:flex-row flex-col md:space-y-0 space-y-5 md:space-x-10 items-center justify-center mb-10">
         {speakers.map((speaker) => (
           <Speaker key={speaker.name} speaker={speaker} />
         ))}

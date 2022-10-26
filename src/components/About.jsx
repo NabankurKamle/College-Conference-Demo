@@ -52,7 +52,7 @@ const About = () => {
         </div>
       </div>
       <div className="flex items-center space-y-10 lg:space-y-0 justify-between flex-col lg:flex-row lg:px-60 md:px-12 py-6">
-        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_15px_5px_rgba(0,0,0,0.25)]">
+        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_10px_5px_rgba(0,0,0,0.25)]">
           <div className="absolute top-2 left-2">
             <img src="/img/aboutImg/logo/logoTicket.svg" alt="" />
           </div>
@@ -63,7 +63,7 @@ const About = () => {
             1500+
           </p>
         </div>
-        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_15px_5px_rgba(0,0,0,0.25)]">
+        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_10px_5px_rgba(0,0,0,0.25)]">
           <div className="absolute top-2 left-2">
             <img src="/img/aboutImg/logo/logoOffice.svg" alt="" />
           </div>
@@ -74,7 +74,7 @@ const About = () => {
             9+
           </p>
         </div>
-        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_15px_5px_rgba(0,0,0,0.25)]">
+        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_10px_5px_rgba(0,0,0,0.25)]">
           <div className="absolute top-2 left-2">
             <img src="/img/aboutImg/logo/logoMic.svg" alt="" />
           </div>
@@ -85,7 +85,7 @@ const About = () => {
             10+
           </p>
         </div>
-        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_15px_5px_rgba(0,0,0,0.25)]">
+        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_10px_5px_rgba(0,0,0,0.25)]">
           <div className="absolute top-2 left-2">
             <img src="/img/aboutImg/logo/logoAudience.svg" alt="" />
           </div>
