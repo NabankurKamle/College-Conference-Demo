@@ -5,7 +5,7 @@ const AboutUs = () => {
     <>
       <div className="flex justify-center lg:space-x-10 items-center flex-col lg:flex-row lg:px-32 md:px-12 py-6 relative aboutusContainer">
         <div className="lg:mr-5 flex flex-col lg:flex-row items-center space-x-12">
-          <div className="bg-[#59CE8F] w-[80%] px-10 py-12 lg:w-[330px] rounded-2xl text-center ">
+          <div className="bg-[#59CE8F] w-[80%] px-10 py-12 lg:w-[350px] rounded-2xl text-center ">
             <p className="text-4xl font-bold mb-5 text-white text-center lg:text-start">
               ACADEMY OF TECHNOLOGY
             </p>
@@ -24,8 +24,11 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="w-[80%] lg:w-auto flex flex-col items-center  lg:items-start lg:justify-start justify-center text-center py-5 mb-3 space-y-5">
-          <p className="text-lg font-bold text-[#6C6C6C]">ABOUT OUR VENUE</p>
-          <p className="text-5xl font-bold md:max-w-[700px] text-[#FF6767] lg:text-start text-center">
+          <p className="text-md font-bold text-[#6C6C6C]">
+            <div className="h-[14px] w-[4px] bg-[#FF6767] lg:inline-block mr-3 hidden"></div>
+            ABOUT OUR VENUE
+          </p>
+          <p className="text-4xl font-bold md:max-w-[700px] text-[#FF6767] lg:text-start text-center">
             About Us
           </p>
           <p className="max-w-[600px] font-bold lg:text-start text-center">

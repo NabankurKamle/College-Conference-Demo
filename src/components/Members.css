@@ -1,0 +1,11 @@
+.memberContainer::before {
+  content: "";
+  background: url("/public/img/bg/bgMembers.svg") center center/cover no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+}

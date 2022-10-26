@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Gotham";
+    src: url("/public/font/GothamMedium.ttf");
+  }
+  @font-face {
+    font-family: "Gotham";
+    font-style: bold;
+    src: url("/public/font/GothamMedium.ttf");
+  }
+}
+
+.main {
+  font-family: "Gotham";
+}

@@ -1,15 +1,13 @@
-import "./Speakers.css";
-import speakers from "../collection/speaker";
-import Speaker from "./common/Speaker";
+import "./Members.css";
+import members from "../collection/member";
+import Member from "./common/Member";
 
-const Speakers = () => {
+const Members = () => {
   return (
-    <div className="px-12 py-6 relative speakerContainer">
-      <div className="flex flex-col items-center justify-center space-y-8 text-center py-5 px-5 mb-10">
-        <p className="text-md font-bold text-[#6C6C6C]">
-          EVENT CONFERENCE SPEAKERS
-        </p>
-        <p className="text-4xl font-bold text-[#FF6767]">THE SPEAKERS</p>
+    <div className="px-12 py-6 relative memberContainer">
+      <div className="flex flex-col items-center  justify-center space-y-8 text-center py-5 px-5 mb-10">
+        <p className="text-md font-bold text-[#6C6C6C]">MEET OUR MEMBERS</p>
+        <p className="text-4xl font-bold text-[#FF6767]">COMMITTE MEMBERS</p>
         <p className="max-w-[600px] font-bold">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           Consequuntur, consequatur vero, tenetur corrupti libero necessitatibus
@@ -20,12 +18,12 @@ const Speakers = () => {
         </button>
       </div>
       <div className=" flex md:flex-row flex-col md:space-y-0 space-y-5 md:space-x-10 items-center justify-center mb-10">
-        {speakers.map((speaker) => (
-          <Speaker key={speaker.name} speaker={speaker} />
+        {members.map((member) => (
+          <Member key={member.name} member={member} />
         ))}
       </div>
     </div>
   );
 };
 
-export default Speakers;
+export default Members;

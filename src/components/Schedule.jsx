@@ -18,14 +18,14 @@ const Schedule = () => {
       <div className="px-8 md:px-12 py-12 flex flex-col md:flex-row justify-center items-center md:items-start relative scheduleContainer">
         <div className="flex flex-col justify-center items-center md:items-start md:mr-10 lg:mr-16 mb-8 md:mb-auto">
           <div className="md:w-[250px] lg:w-[300px] text-center md:text-start mb-10 ">
-            <p className="font-bold text-4xl text-[#FF6767] mb-12">
+            <p className="font-bold text-4xl text-[#FF6767] mb-8">
               SCHEDULE AND EVENT DETAILS
             </p>
-            <p className=" text-md max-w-[280px] mb-12 font-bold">
+            <p className=" text-md max-w-[280px] mb-8 font-bold">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
               expedita similique ut nihil quod voluptates.
             </p>
-            <button className="text-md px-10 py-3 rounded-xl drop-shadow-[8px_8px_15px_rgba(0,0,0,0.45)] text-white bg-gradient-to-r from-[#AC1400] to-[#FF1E00]  mb-10 font-semibold">
+            <button className="text-md px-10 py-3 rounded-xl drop-shadow-[8px_8px_15px_rgba(0,0,0,0.45)] text-white bg-gradient-to-r from-[#AC1400] to-[#FF1E00]  mb-8 font-semibold">
               Download Schedule
             </button>
           </div>
