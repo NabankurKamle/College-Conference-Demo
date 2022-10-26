@@ -47,7 +47,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link className="font-bold text-xl" to="/commitee">
-              Comittee
+              Committee
             </Link>
           </li>
           <li>
@@ -56,13 +56,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="font-bold text-xl" to="/contact">
-              Contact Us
+            <Link className="font-bold text-xl" to="/about">
+              About Us
             </Link>
           </li>
           <li>
-            <Link className="font-bold text-xl" to="/about">
-              About Us
+            <Link className="font-bold text-xl" to="/contact">
+              Contact Us
             </Link>
           </li>
         </ul>

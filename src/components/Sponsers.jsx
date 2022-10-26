@@ -4,7 +4,7 @@ import Sponser from "./common/Sponser";
 
 const Sponsers = () => {
   return (
-    <div className="px-2 sm:px-12 py-6 sponsersContainer relative">
+    <div className="px-2 sm:px-12 py-6 sponsersContainer relative ">
       <div className="flex flex-col items-center justify-center space-y-5 text-center py-5 px-5 mb-10">
         <p className="text-md font-bold text-[#6C6C6C]">
           EVENT PARTNERS & SPONSERS
