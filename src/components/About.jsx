@@ -1,7 +1,10 @@
 const About = () => {
   return (
     <>
-      <div className="flex justify-center flex-col lg:flex-row lg:px-32 md:px-12 py-6">
+      <div
+        id="topics"
+        className="flex justify-center flex-col lg:flex-row lg:px-32 md:px-12 py-6 "
+      >
         <div className="hidden mr-10 lg:flex items-center space-x-12">
           <div className="flex flex-col justify-center items-center space-y-12">
             <img
