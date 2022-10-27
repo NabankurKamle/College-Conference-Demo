@@ -47,6 +47,7 @@ const AboutUs = () => {
           </p>
           <div className="w-[70%] h-[150px] flex justify-center items-center p-[2px] bg-gradient-to-br from-[#59CE8F] to-[#FF1E00] via-black ">
             <iframe
+              title="Map"
               style={{ width: "100%", height: "100%" }}
               src="https://maps.google.com/maps?q=Grand%20Trunk%20Rd,%20Adisaptagram,%20Krishnapur%20Chandanpur,%20West%20Bengal%20712502&t=&z=13&ie=UTF8&iwloc=&output=embed"
               frameborder="0"

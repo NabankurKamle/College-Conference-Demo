@@ -6,11 +6,7 @@ module.exports = {
       md: "768px",
       lg: "1024px",
     },
-    extend: {
-      backgroundImage: {
-        bgSpeakers: "url('../public/img/bg/bgSpeakers.jpg')",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };

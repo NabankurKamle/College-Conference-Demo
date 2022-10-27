@@ -12,6 +12,11 @@
     font-style: bold;
     src: url("/public/font/GothamMedium.ttf");
   }
+  @font-face {
+    font-family: "Gotham";
+    font-style: italic;
+    src: url("/public/font/GothamLightItalic.ttf");
+  }
 }
 
 .main {

@@ -1,0 +1,7 @@
+.homeContainer {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
+    url("/public/img/bg/bgHome.png") center center/cover no-repeat;
+  position: relative;
+  top: 0;
+  left: 0;
+}

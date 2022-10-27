@@ -1,7 +1,5 @@
 import "./ContactUs.css";
 
-import { Link } from "react-router-dom";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
@@ -34,6 +32,7 @@ const ContactUs = () => {
                 <a
                   href="https://in.linkedin.com/school/academy-of-technology/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <FontAwesomeIcon
                     className="text-3xl transition-colors delay-100 duration-300 hover:text-[#0077B5] "
@@ -42,7 +41,11 @@ const ContactUs = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/" target="_blank">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FontAwesomeIcon
                     className="text-3xl transition-colors delay-100 duration-300 hover:text-[#FD1D1D]"
                     icon={faInstagram}
@@ -50,7 +53,11 @@ const ContactUs = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.twitter.com/" target="_blank">
+                <a
+                  href="https://www.twitter.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FontAwesomeIcon
                     className="text-3xl transition-colors delay-100 duration-300 hover:text-[#00ACEE]"
                     icon={faTwitter}
@@ -61,6 +68,7 @@ const ContactUs = () => {
                 <a
                   href="https://www.facebook.com/www.aot.edu.in/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <FontAwesomeIcon
                     className="text-3xl transition-colors delay-100 duration-300 hover:text-[#3B5998]"
@@ -71,7 +79,7 @@ const ContactUs = () => {
             </ul>
           </div>
         </div>
-        <div className="lg:w-[100vw] py-10 lg:absolute lg:-left-12 -bottom-32 space-y-5 bg-transparent backdrop-blur-sm md:pl-32">
+        <div className="lg:w-[100vw] py-10 lg:absolute lg:-left-12 -bottom-32 space-y-5 bg-transparent backdrop-blur-sm  md:pl-32">
           <div className="flex items-center justify-start">
             <FontAwesomeIcon icon={faPhone} className="text-xl mr-5" />
             <span className="text-lg">+912525252525</span>
@@ -89,7 +97,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <div className="w-[300px] sm:w-[350px] py-6 px-10 bg-[rgba(89,206,144,0.1)] h-[500px] overflow-hidden z-10">
+      <div className="w-[300px] sm:w-[350px] py-6 px-10 h-[500px] overflow-hidden z-10 bg-[#59ce902f] backdrop-blur-[2px] rounded-lg">
         <form className="w-full h-full relative">
           <div className="w-full mb-5">
             <label htmlFor="name" className=" font-bold">
@@ -123,7 +131,7 @@ const ContactUs = () => {
               placeholder="your message"
             />
           </div>
-          <button className="px-8 py-5 text-lg bg-[#59CE8F] rounded-lg font-bold absolute right-0">
+          <button className="px-8 py-3 text-sm bg-[#59CE8F] rounded-lg font-bold absolute right-0 drop-shadow-[5px_5px_8px_rgba(0,0,0,0.35)]">
             Send Message
           </button>
         </form>
