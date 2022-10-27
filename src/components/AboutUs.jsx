@@ -3,7 +3,10 @@ import "./AboutUs.css";
 const AboutUs = () => {
   return (
     <>
-      <div className="flex justify-center lg:space-x-10 items-center flex-col lg:flex-row lg:px-32 md:px-12 py-6 relative aboutusContainer">
+      <div
+        id="aboutUs"
+        className="flex justify-center lg:space-x-10 items-center flex-col lg:flex-row lg:px-32 md:px-12 py-6 pb-10 relative aboutusContainer"
+      >
         <div className="lg:mr-5 flex flex-col lg:flex-row items-center space-x-12">
           <div className="bg-[#59CE8F] w-[80%] px-10 py-12 lg:w-[350px] rounded-2xl text-center ">
             <p className="text-4xl font-bold mb-5 text-white text-center lg:text-start">

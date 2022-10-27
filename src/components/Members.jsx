@@ -4,7 +4,7 @@ import Member from "./common/Member";
 
 const Members = () => {
   return (
-    <div className="px-12 py-6 relative memberContainer">
+    <div id="committee" className="px-12 py-6 relative memberContainer">
       <div className="flex flex-col items-center  justify-center space-y-8 text-center py-5 px-5 mb-10">
         <p className="text-md font-bold text-[#6C6C6C]">MEET OUR MEMBERS</p>
         <p className="text-4xl font-bold text-[#FF6767]">COMMITTE MEMBERS</p>

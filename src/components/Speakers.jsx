@@ -4,7 +4,7 @@ import Speaker from "./common/Speaker";
 
 const Speakers = () => {
   return (
-    <div className="px-12 py-6 relative speakerContainer">
+    <div id="speakers" className="px-12 py-6 relative speakerContainer">
       <div className="flex flex-col items-center justify-center space-y-8 text-center py-5 px-5 mb-10">
         <p className="text-md font-bold text-[#6C6C6C]">
           EVENT CONFERENCE SPEAKERS
